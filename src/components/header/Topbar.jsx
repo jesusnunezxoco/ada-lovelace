@@ -4,8 +4,8 @@ import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 function Topbar() {
   return (
-    <div className="flex justify-end bg-slate-100 py-5 ">
-      <div className="flex max-w-lg">
+    <div className="py-5 px-5">
+      <div className="flex justify-end mx-auto max-w-7xl">
         <form>
           <input
             type={"text"}
@@ -23,7 +23,7 @@ function Topbar() {
         <a href="#" className="mr-3">
           <img alt="LinkedIn logo" src={linkedin}></img>
         </a>
-        <a href="#" className="mr-3">
+        <a href="#" className="">
           <img alt="Twitter logo" src={twitter}></img>
         </a>
       </div>

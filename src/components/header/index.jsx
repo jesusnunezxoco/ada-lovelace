@@ -1,15 +1,14 @@
 import React from "react";
 
 import Topbar from "./Topbar";
-import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Nav from "./Nav";
 
-function Header() {
+function Header({ children }) {
   return (
     <header>
       <Topbar />
-      <Navbar />
-      <Hero />
+      <Nav />
+      {children}
     </header>
   );
 }
