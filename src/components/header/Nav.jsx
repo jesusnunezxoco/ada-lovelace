@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="flex justify-between align-center mx-auto py-5 px-5 max-w-7xl">
+    <nav className="flex justify-between items-center mx-auto h-28 px-5 max-w-7xl">
       <a href="/">
         {/* get smaller version of logo */}
         <div className="w-40 absolute top-5">

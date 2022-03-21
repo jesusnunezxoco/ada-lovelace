@@ -5,7 +5,7 @@ import twitter from "../../assets/twitter.png";
 function Topbar() {
   return (
     <div className="py-5 px-5">
-      <div className="flex justify-end mx-auto max-w-7xl">
+      <div className="flex justify-end items-center mx-auto h-16 max-w-7xl">
         <form>
           <input
             type={"text"}
