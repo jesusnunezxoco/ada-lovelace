@@ -1,12 +1,12 @@
 import React from "react";
 
-function Impact({img, alt, title, description}) {
+function Impact({img, alt, title, content}) {
   return (
-    <article className="">
-      <img src={img} alt={alt}></img>
-      <h3 className="">{title}</h3>
-      <p>
-     {description}
+    <article className="text-center my-3">
+      <img src={img} alt={alt} className="mx-auto"></img>
+      <h3 className="my-3 text-2xl">{title}</h3>
+      <p >
+     {content}
       </p>
     </article>
   );
