@@ -14,10 +14,18 @@ function Nav() {
         </div>
       </a>
       <div>
-        <a href="/about" className="mr-5">About</a>
-        <a href="/services" className="mr-5">Services</a>
-        <a href="/resources" className="mr-5">Resources</a>
-        <a href="/get-involved" className="">Get Involved</a>
+        <a href="/about" className="mr-5 text-lg">
+          About
+        </a>
+        <a href="/services" className="mr-5 text-lg">
+          Services
+        </a>
+        <a href="/resources" className="mr-5 text-lg">
+          Resources
+        </a>
+        <a href="/get-involved" className="text-lg">
+          Get Involved
+        </a>
       </div>
     </nav>
   );
