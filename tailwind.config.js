@@ -12,11 +12,17 @@ module.exports = {
         "light-green": "#DCF0DA",
         "dark-yellow": "#EDAA36",
         "light-yellow": "#FFF5E4",
-        "black": "#292929",
+        black: "#292929",
       },
       fontFamily: {
-        "sans": "Cabin"
-      }
+        sans: "Cabin",
+      },
+      borderWidth: {
+        10: "10px",
+        12: "12px",
+        14: "14px",
+        16: "16px",
+      },
     },
   },
   plugins: [],
