@@ -8,6 +8,7 @@ import MissionSection from "./MissionSection";
 import ImpactSection from "./ImpactSection";
 import WeDoSection from "./WeDoSection";
 import LatestSection from "./LatestSection";
+import EmailCtaSection from "./EmailCtaSection";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
       <ImpactSection />
       <WeDoSection />
       <LatestSection />
-     
+     <EmailCtaSection />
       </main>
     </>
   );

@@ -12,7 +12,8 @@ module.exports = {
         "light-green": "#DCF0DA",
         "dark-yellow": "#EDAA36",
         "light-yellow": "#FFF5E4",
-        black: "#292929",
+        "black": "#292929",
+        "light-gray":"#F4F4F4"
       },
       fontFamily: {
         sans: "Cabin",

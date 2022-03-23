@@ -3,16 +3,17 @@ import React from "react";
 function Nav() {
   return (
     <nav className="flex justify-between items-center mx-auto h-28 px-5 max-w-7xl">
-      <a href="/">
-        {/* get smaller version of logo */}
-        <div className="w-40 absolute top-5">
+      {/* get smaller version of logo */}
+      <div className="w-40 absolute top-5">
+        <a href="/">
           <img
             src={`${process.env.PUBLIC_URL}/logo_vertical.png`}
             alt="logo"
             id="logo"
           />
-        </div>
-      </a>
+        </a>
+      </div>
+
       <div>
         <a href="/about" className="mr-5 text-lg">
           About
