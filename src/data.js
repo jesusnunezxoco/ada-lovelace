@@ -1,6 +1,54 @@
 import impactImg from "./assets/impact1.png";
 
 const data = {
+  footerNavLinks: [
+    [
+      { name: "About", path: "/about" },
+      {
+        name: "Our Technology",
+        path: "/our-technology",
+      },
+      {
+        name: "Our Team",
+        path: "/our-team",
+      },
+    ],
+    [
+      { name: "Services", path: "/services" },
+      {
+        name: "Literacy Programs",
+        path: "/literacy-programs",
+      },
+      {
+        name: "For Teachers and Educators",
+        path: "/for-teachers-and-educators",
+      },
+      {
+        name: "Care Professionals",
+        path: "/care-professionals",
+      },
+      {
+        name: "Success Stories",
+        path: "/success-stories",
+      },
+    ],
+    [
+      { name: "Resources", path: "/resources" },
+      {
+        name: "Blog",
+        path: "/blog",
+      },
+      { name: "Research and Publications", path: "/research-and-publications" },
+    ],
+    [
+      { name: "Get Involved", path: "/get-involved" },
+      {
+        name: "Volunteer Opportunities",
+        path: "/volunteer-opportunities",
+      },
+      { name: "Ways to Give", path: "/ways-to-give" },
+    ]
+  ],
   impactCards: [
     {
       title: "AI Software Solutions",
